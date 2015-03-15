@@ -1,0 +1,20 @@
+﻿<script language="vbscript" runat="server">
+
+sub Application_OnStart
+Application("strconn")="Provider=sqloledb;Data Source=CHANGO-PC;Initial Catalog=abm_aspclassic;User Id=sa;Password=mysql;" 
+Application("base_url") = "http://localhost:5000"
+end sub
+
+sub Application_OnEnd
+'some code
+end sub
+
+sub Session_OnStart
+'some code
+end sub
+
+sub Session_OnEnd
+'some code
+end sub
+
+</script>
